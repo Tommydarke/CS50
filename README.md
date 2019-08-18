@@ -6,7 +6,9 @@ Web Programming with Python and JavaScript
 
 Assessment criteria:
 >Your website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
+
 --> The 4 pages on this site are the homepage (index.html), "About" (about.html), "Projects" (projects.html) and "epic walks" (walks.html)
+
 --> The navbar displays on every page and allows the user to link to any page from any other. As this navbar is the same on each page an improvement would be to use a PhP include to add the html to each page from a single file or an HTML/javascript include. This would allow changes to the navbar to propagate to each page while only having to change one file
 >Your website must include at least one list (ordered or unordered), at least one table, and at least one image.
 --> The navbar uses an unordered list styled to display horizontally
