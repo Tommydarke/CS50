@@ -49,11 +49,11 @@ Assessment criteria:
 
 The files are:
 
-> index.html, about.html, projects.html, walks. html
+index.html, about.html, projects.html, walks. html
 --> These are the 4 html pages
 
-> styles.scss 
+styles.scss 
 --> This is the main style file. I used "sass --watch styles.scss:styles.css" to automatically compile the .css file
 
-> README.md
+README.md
 --> This file details how the assessment criteria have been met
