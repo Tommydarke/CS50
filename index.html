@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hi I'm Tom</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- My css compiled from styles.scss with Sass: -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- A navigation bar that collapses on small screens: -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">The Tom Baker CS50 site</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="walks.html">Epic walks</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <img id="snowy_tom" src="tom_in_the_snow.jpg">
+  <h1>Welcome to my page!</h1>
+  <p>Hi, I'm Tom Baker, thanks for visiting. <br/>This page is coursework for CS50. Have a browse and use the links to find out about me and my interests.</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Want to see a list?</h3>
+      <p>The links in the navigation pane are part of an unordered list (ul). Bootstrap's navbar class styling makes them look great and appear horizontally</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Check out this table, styled with Sass!</h3>
+      <table class="sassy">
+      <tr><th>Name</th><th>Age</th><th>Education</th></tr>
+      <tr><td><p>Tom Baker</p></td><td><p>36</p></td><td><p>Loughborough University, University of Nottingham, University of Bath</p></td></tr>
+      </table>
+    </div>
+    <div class="col-sm-4">
+      <h3>Some other features of this page...</h3>        
+      <p>The large div at the top of the page is a bootstrap component called a Jumbotron.</p>
+      <p>The image of me traipsing through the snow is styled with a media query so that it has a maximum width of ~800px on large screens and 100% on mobile screens, resize the page and check it out, you'll also notice the way the bootstrap grid nicely rearranges these columns into rows, pretty neat.</p>
+    </div>
+  </div>
+
+</div>
+    <div id="footer">
+    <div class="col-xs-12">
+		  <h4 class="foot-text">Tom Baker. Thanks for visiting, come back soon! Find me on <a href="https://www.linkedin.com/in/tomrootsdown">LinkedIn</a></h4>
+	  </div>
+  </div>
+</body>
+</html>
