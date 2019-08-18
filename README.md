@@ -4,7 +4,7 @@ Tom Baker
 
 Web Programming with Python and JavaScript
 
-Assessment criteria:
+Assessment criteria
 >Your website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
 --> The 4 pages on this site are the homepage (index.html), "About" (about.html), "Projects" (projects.html) and "epic walks" (walks.html)
 --> The navbar displays on every page and allows the user to link to any page from any other. As this navbar is the same on each page an improvement would be to use a PhP include to add the html to each page from a single file or an HTML/javascript include. This would allow changes to the navbar to propagate to each page while only having to change one file
@@ -29,7 +29,7 @@ Assessment criteria:
 
 >In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 
-The files are:
+The files are
 > index.html, about.html, projects.html, walks. html
 --> These are the 4 html pages
 > styles.scss 
